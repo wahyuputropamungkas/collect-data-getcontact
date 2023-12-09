@@ -1,4 +1,6 @@
 /venv
 /contacts/*.vcf
 /*.vcf
-/results/*.txt
+/results/*
+/cookie/*
+!/cookie/.gitkeep

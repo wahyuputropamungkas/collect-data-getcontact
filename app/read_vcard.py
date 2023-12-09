@@ -46,8 +46,6 @@ def getContacts():
         if vcf.endswith('.vcf'):
             currentVcf = readVcf(vcf)
 
-            contacts.append(currentVcf)
+            contacts.extend(currentVcf)
 
     return contacts
-
-getContacts()
